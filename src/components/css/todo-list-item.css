@@ -1,0 +1,70 @@
+/* .todoWrapper {
+	border-bottom: 1px solid #efefef;
+	text-align: left;
+	margin-bottom: 10px;
+} */
+.table {
+  width: 400px !important;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.table tr td:first-of-type {
+  font-size: 20px;
+}
+
+.removeTodo {
+	margin-right: 10px;
+	margin-bottom: 10px;
+  width: 60px !important;
+	outline: none;
+	box-shadow: none;
+	border-width: 2px;
+	border-radius: 3px;
+	border-style: solid;
+	padding: 8px;
+	color: white;
+	background-color: red;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.removeTodo:hover {
+	color: red;
+	border-color: red;
+	background-color: white;
+}
+
+.editTodo {
+	margin-right: 10px;
+  width: 60px !important;
+	margin-bottom: 10px;
+	outline: none;
+	box-shadow: none;
+	border-width: 2px;
+	border-radius: 3px;
+	border-style: solid;
+	padding: 8px;
+	color: white;
+	background-color: blue;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.editTodo:hover {
+	color: blue;
+	border-color: blue;
+	background-color: white;
+}
+
+.edit-input {
+  border: none;
+border-top: 2px solid rgba(73,204,249,1.0);
+border-bottom: 2px solid rgba(73,204,249,1.0);
+margin-right: 10px;
+padding: 5px;
+line-height: 20px;
+font-size: 15px;
+font-weight: bold;
+}
